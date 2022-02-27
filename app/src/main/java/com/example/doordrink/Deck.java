@@ -57,7 +57,7 @@ public class Deck  {
      */
     private  void remove(){
 
-        int i=0,c=0,size=sus.size();
+        int i=0,size=sus.size();
         boolean no_question_removed=true;
         while (i<size && no_question_removed){
             if (sus.get(i).end_of_suspension()){

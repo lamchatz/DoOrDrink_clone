@@ -107,6 +107,10 @@ public class MainActivity extends AppCompatActivity {
         s.push(i);
     }
 
+    /**
+     * Adding the new questions
+     * @param intent
+     */
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
@@ -117,6 +121,5 @@ public class MainActivity extends AppCompatActivity {
                 deck.addToQuestions(q.get(i));
             }
         }
-
     }
 }
